@@ -1,5 +1,6 @@
 import express from "express"
 import "dotenv/config.js"
+import "./config/database.js"
 
 const server = express()
 
@@ -11,7 +12,7 @@ server.get("/",(request,response) => {
     response.send("Hola, Bienvenido a Express")
 })
 
-server.get("/hola",(request,response) => {
+server.get("/adios",(request,response) => {
     response.send("Adios a Express")
 })
 

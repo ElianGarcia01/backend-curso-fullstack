@@ -9,7 +9,9 @@
     "dataUsers": "node ./models/data/usersData.js",
     "dataCars": "node ./models/data/carsData.js",
     "dataBooks": "node ./models/data/booksData.js",
-    "dataMovies": "node ./models/data/moviesData.js"
+    "dataMovies": "node ./models/data/moviesData.js",
+    "dataGameplays": "node ./models/data/gameplaysData.js",
+    "dataCities": "node ./models/data/citiesData.js"
   },
   "repository": {
     "type": "git",

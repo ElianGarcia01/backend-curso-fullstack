@@ -1,8 +1,8 @@
-import User from "../../models/User.js"
+import Movie from "../../models/Movie.js"
 
-const allUsers = async (req, res, next) => {
+const allMovies = async (req, res, next) => {
     try {
-        let all = await User.find()
+        let all = await Movie.find()
         return res.status(200).json({
             response: all
         })
@@ -13,4 +13,4 @@ const allUsers = async (req, res, next) => {
     }
 }
 
-export default allUsers
+export default allMovies

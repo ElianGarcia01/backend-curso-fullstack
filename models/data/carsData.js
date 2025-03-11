@@ -2,7 +2,6 @@ import "dotenv/config.js"
 import "../../config/database.js"
 import Car from "../Car.js"
 
-
 const cars = [
     { brand: "Toyota", model: "Corolla", year: 2020, color: "White", type: "Sedan", transmission: "Automatic", price: 20000 },
     { brand: "Ford", model: "Mustang", year: 2019, color: "Red", type: "Sports", transmission: "Manual", price: 35000 },

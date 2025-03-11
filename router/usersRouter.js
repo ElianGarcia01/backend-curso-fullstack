@@ -1,8 +1,8 @@
 import { Router } from "express"
 import usersReadController from "../controllers/users/read.js"
 
-const routerUsers = Router()
+const usersRouter = Router()
 
-routerUsers.get("/allUsers", usersReadController)
+usersRouter.get("/allUsers", usersReadController)
 
-export default routerUsers
+export default usersRouter
